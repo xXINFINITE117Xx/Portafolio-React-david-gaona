@@ -1,0 +1,131 @@
+.section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    gap: 1.1rem;
+    left: 0;
+    width: 30%;
+    height: 100%;
+}
+.section img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 0 10px;
+    object-fit: cover;
+}
+.section .perfil-h3{
+    margin: 10px 0 0 0;
+}
+
+.section .perfil-h3:hover{
+    cursor: pointer;
+    color: rgb(4, 255, 4);
+}
+
+.section .logo-sena-img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;  
+}
+.section .nombre{
+    color: white;
+}
+.section .perfil-h3{
+    color: aliceblue;
+}
+.section .redes-sociales{
+    width: 80%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    cursor: pointer;
+    background-color: black;
+}
+.redes-sociales .redes{
+    font-size: 25px;
+    color: aliceblue;
+} 
+
+.redes-sociales .redes:is(:hover, :focus){
+    color: aqua;
+
+}
+.section .progress-bar{
+    width: 50%; 
+    height: 5px;
+    background-color: white; 
+    margin:0 10px;
+    position: absolute;
+}
+.section hr{
+    width: 50%;
+    height: 5px;
+    background-color: aliceblue;
+}
+ @media (max-width: 350px) {
+}
+@media (max-width: 480px) {
+    .section {
+    width: 100%;
+    height: auto;
+    position: static;
+    }
+    .section .redes-sociales{
+        margin: 0 0 10px;
+    }
+    .redes-sociales .redes{
+    font-size: 30px;
+    color: aliceblue;
+} 
+.section .redes-sociales {
+    width: 80%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: black;
+}
+}
+
+@media (max-width: 768px) {
+    .section img{
+        width: 150px;
+        height: 150px;
+    }
+    .section .nombre{
+        font-size: 22px;
+    }
+    .section .perfil-h3{
+        font-size: 21px;
+    }
+    .section .logo-sena-img{
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+    .section .redes-sociales{
+        width: 90%;
+        height: 7%;
+    }
+    .redes-sociales .redes{
+        font-size: 20px;
+    }
+    .reference-container{
+        display: flex;
+        
+    }
+}
+
+@media (max-width: 920px) {}
+
+@media (min-width: 1280px) {} 
