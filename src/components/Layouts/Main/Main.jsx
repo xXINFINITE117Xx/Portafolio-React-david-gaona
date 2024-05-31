@@ -13,8 +13,7 @@ const Main = () => {
       title: "Calida De Software",
       description: "Pagina sobre el Iso 27001",
       link: "Ir al proyecto",
-      projectURL:
-        "https://calidad-software-clonacion.vercel.app",
+      projectURL: "https://calidad-software-clonacion.vercel.app",
       imageUrl: "../../../../Calidad-de-software.png",
     },
     {
@@ -68,13 +67,18 @@ const Main = () => {
         height="5px"
       ></PortafolioSection>
       <p className="parrafo-perfil">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero asperiores
-        voluptatem dolorum odio exercitationem, labore at illum officiis
-        delectus accusantium veniam laudantium soluta! Non esse quae obcaecati
-        voluptatibus quaerat in! Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Dolor non, illo accusamus neque corporis nobis ullam
-        fugiat alias similique odit delectus quasi aut nesciunt nam eos ab
-        porro? Aliquam, animi?
+        Desarrollador de software con experiencia en tecnologías como
+        JavaScript, SQL, MySQL, HTML, CSS y manejo de versiones con GIT. Me
+        especializo en el desarrollo de aplicaciones frontend y backend
+        utilizando estas tecnologías para crear interfaces de usuario atractivas
+        y funcionales. Además de mis competencias técnicas, poseo habilidades
+        interpersonales como comunicación efectiva, adaptabilidad, pensamiento
+        crítico y trabajo en equipo. Estoy comprometido en colaborar en
+        proyectos desafiantes donde pueda aplicar todas mis destrezas para
+        desarrollar soluciones de calidad y generar un impacto positivo en el
+        campo del desarrollo de aplicaciones. Me entusiasman las oportunidades
+        que me permitan impulsar el éxito de los proyectos y contribuir al
+        crecimiento de los equipos de desarrollo.
       </p>
 
       <PortafolioSection
