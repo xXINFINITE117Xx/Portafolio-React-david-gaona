@@ -10,7 +10,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 const Main = () => {
   const projectData = [
     {
-      title: "Calida De Software",
+      title: "Calidad De Software",
       description: "Pagina sobre el Iso 27001",
       link: "Ir al proyecto",
       projectURL: "https://calidad-software-clonacion.vercel.app",
